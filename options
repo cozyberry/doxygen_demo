@@ -1,0 +1,32 @@
+#[mandatory]
+PROJECT_NAME = #Your Project Name would go here
+PROJECT_NUMBER = #Your version/revision number goes here
+OUTPUT_DIRECTORY = #Where you want the documentation going
+FILE_PATTERNS = *.py
+RECURSIVE = YES
+INPUT_FILTER = "python /path/to/doxypy.py" #set this to where you extracted doxypy
+FILTER_SOURCE_FILES = YES
+INPUT = #where the source files are
+
+HIDE_UNDOC_RELATIONS = NO
+HAVE_DOT = YES
+CALL_GRAPH = YES
+CALLER_GRAPH = YES
+
+#whereis dot and enter the output into the following config tag:
+
+DOT_PATH = /usr/bin/dot
+
+#[optional]
+MULTILINE_CPP_IS_BRIEF = YES
+DETAILS_AT_TOP = YES
+EXTRACT_ALL = YES
+EXTRACT_STATIC = YES
+SHOW_DIRECTORIES = YES
+SOURCE_BROWSER = YES
+ALPHABETICAL_INDEX = YES
+COLS_IN_ALPHA_INDEX = 8
+TOC_EXPAND = YES
+DISABLE_INDEX = YES
+GENERATE_TREEVIEW = YES
+GENERATE_LATEX =YES
